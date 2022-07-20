@@ -1,33 +1,26 @@
 # Desafio 3
 
-O código abaixo tem alguns erros e não funciona como deveria. Você pode identificar quais são e corrigi-los em um arquivo TS?
-
-let botaoAtualizar = document.getElementById('atualizar-saldo');
-let botaoLimpar = document.getElementById('limpar-saldo');
-let soma = document.getElementById('soma');
-let campoSaldo = document.getElementById('campo-saldo');
+### O código abaixo tem alguns erros e não funciona como deveria. Você pode identificar quais são e corrigi-los em um arquivo TS?
+<br>
+let botaoAtualizar = document.getElementById('atualizar-saldo');<br>
+let botaoLimpar = document.getElementById('limpar-saldo');<br>
+let soma = document.getElementById('soma');<br>
+let campoSaldo = document.getElementById('campo-saldo');<br>
 
 campoSaldo.innerHTML = 0
 
-function somarAoSaldo(soma) {
-    campoSaldo.innerHTML += soma;
-}
+function somarAoSaldo(soma) {<br>
+    campoSaldo.innerHTML += soma;<br>
+}<br>
 
-function limparSaldo() {
-    campoSaldo.innerHTML = '';
-}
+function limparSaldo() {<br>
+    campoSaldo.innerHTML = '';<br>
+}<br>
 
-botaoAtualizar.addEventListener('click', function () {
-    somarAoSaldo(soma.value);
+botaoAtualizar.addEventListener('click', function () {<br>
+    somarAoSaldo(soma.value);<br>
+});<br>
+
+botaoLimpar.addEventListener('click', function () {<br>
+    limparSaldo();<br>
 });
-
-botaoLimpar.addEventListener('click', function () {
-    limparSaldo();
-});
-
-/*
-    <h4>Valor a ser adicionado: <input id="soma"> </h4>
-    <button id="atualizar-saldo">Atualizar saldo</button>
-    <button id="limpar-saldo">Limpar seu saldo</button>
-    <h1>"Seu saldo é: " <span id="campo-saldo"></span></h1>
- */
