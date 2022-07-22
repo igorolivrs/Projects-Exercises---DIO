@@ -2,6 +2,28 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## About projetc
+
+This project was created for the conclusion of module IV - Front-end: Web Development with React, from the impulse javascript evolution bootcamp, carried out on the [DIO](https://www.dio.me/) platform.
+
+## Features
+
+* Search infos by username
+* Search repo by username
+* Search starred by username
+
+## Preview
+
+![projeto_api_github1](https://user-images.githubusercontent.com/97759282/180573323-05c02e8e-7b20-499f-9a0f-7426e66bb5a9.png)
+##
+![projeto_api_github2](https://user-images.githubusercontent.com/97759282/180573358-52d82ef2-d851-4b1a-8268-a5f56ecd3f6d.png)
+
+## Libraries used
+
+* [axios](https://www.npmjs.com/package/axios)
+* [react-tabs](https://www.npmjs.com/package/react-tabs)
+* [styled-components](https://styled-components.com/)
+
 ## Available Scripts
 
 In the project directory, you can run:
