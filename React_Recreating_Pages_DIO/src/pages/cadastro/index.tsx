@@ -21,8 +21,6 @@ import {
 const Cadastro = () => {
   const {
     control,
-    handleSubmit,
-    formState: { errors },
   } = useForm();
 
   return (
@@ -60,7 +58,7 @@ const Cadastro = () => {
                 control={control}
               />
 
-              <Button title="Entrar" variant="secondary" type="button" />
+              <Button title="Entrar" variant="secondary" type="submit"/>
             </form>
             <Column>
               <br />

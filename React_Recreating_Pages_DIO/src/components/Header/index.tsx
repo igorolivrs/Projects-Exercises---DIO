@@ -1,4 +1,3 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
 import logo from "../../assets/logo-dio.png";
 
@@ -14,8 +13,9 @@ import {
 } from "./styles";
 
 import { Button } from "../Button";
+import { IHeader } from "./types";
 
-const Header = ({ autenticado }) => {
+const Header = ({ autenticado }: IHeader) => {
   const navigate = useNavigate();
 
   const handleClickSignIn = () => {
@@ -55,7 +55,6 @@ const Header = ({ autenticado }) => {
               <MenuRight href="/">Home</MenuRight>
               <Button
                 title="Entrar"
-                type="button"
                 onClick={handleClickSignIn}
               ></Button>
               <Button title="Cadastrar" onClick={handleClickCadastro}></Button>
